@@ -3,7 +3,7 @@
  *  _memset - fill memory with a constant byte.
  *  @s: source string
  *  @b: the constant byte for filling
- *  @n: lenght of buffer
+ *  @n: lenght of buff
  *  Return: new string.
  */
 char *_memset(char *s, char b, unsigned int n)
@@ -15,5 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] - b;
 		n--;
 	}
-	return (s);
+	return (s)
 }
